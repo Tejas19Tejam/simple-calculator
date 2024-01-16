@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<h1 class="heading-primary">Calculator</h1>
+			<div class="input-container">
+				<form>
+					<input
+						class="input-box"
+						type="text"
+						value=""
+						placeholder="0"
+					/>
+				</form>
+				<p class="error-msg">Please enter valid value !</p>
+			</div>
+			<div class="operation-container">
+				<div class="buttons-container">
+					<!-- ROW 1  -->
+					<button class="btn" value="7"><span>7</span></button>
+					<button class="btn" value="8"><span>8</span></button>
+					<button class="btn" value="9"><span>9</span></button>
+					<button class="btn btn-clear-last"><span>DEL</span></button>
+
+					<!-- ROW 2  -->
+					<button class="btn" value="5"><span>5</span></button>
+					<button class="btn" value="4"><span>4</span></button>
+					<button class="btn" value="6"><span>6</span></button>
+					<button class="btn addition">➕</button>
+
+					<!-- ROW 3  -->
+					<button class="btn" value="1"><span>1</span></button>
+					<button class="btn" value="2"><span>2</span></button>
+					<button class="btn" value="3"><span>3</span></button>
+					<button class="btn subtract">➖</button>
+
+					<!-- ROW 4  -->
+					<button class="btn" value="0"><span>0</span></button>
+					<button class="btn" value="."><span>.</span></button>
+					<button class="btn multiply">✖️</button>
+					<button class="btn devide">➗</button>
+
+					<!-- ROW 5  -->
+					<button class="btn btn-reset"><span>Reset</span></button>        
+					<button class="btn btn-eval"><span>=</span></button>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
